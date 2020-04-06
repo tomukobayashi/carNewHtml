@@ -1,0 +1,144 @@
+﻿@charset "utf-8";
+/*全体的なレイアウト*/
+ body{
+  width: 95%;
+} 
+
+#Cars,#IntroShop,#Title,#Access{
+	width: 95%;
+}
+
+#Title{
+	margin-bottom:0px;
+	padding-bottom: 95px;
+	margin-top: 0px;
+	padding-top: 100px;
+  }
+
+#IntroShop{
+	padding-bottom:0px;
+	padding-top:100px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+  }
+
+  #Cars{
+	padding-bottom:0px;
+	padding-top:150px;
+	margin-top: 0px;
+	margin-bottom: 1200px;
+  }
+
+  #Access{
+	padding-bottom:0px;
+	padding-top:100px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+  } 
+
+  #h1{
+    padding: 0;
+  }
+
+  /*ヘッダー*/
+  .navbar-nav li {
+	margin-bottom: 10px;
+	display: table-cell;
+    width: 200px;
+    height: 50px;
+    vertical-align: middle;
+  }
+
+
+/*タイトル*/
+#graphic ul img{
+	width: 350px;
+	height:300px;
+	z-index: 1;
+	padding:0 0 0 0;
+  }
+#graphic ul li .now{
+    width:100%;
+  }
+
+#shopName::before {
+	font-size: 25px;
+	margin-bottom:20.5em;
+	position: absolute;
+  }
+
+#graphic li{
+	padding:0 0 0 0;
+}
+
+#graphic, .graphic{
+    width: 100%;
+    height: 150px;
+    position: relative;
+}
+
+#shopName::before {
+	padding: 0 20px;
+  }
+  
+
+/*販売店紹介*/
+#IntroShop img{
+  width:100%;
+  padding:0;
+}
+
+
+/*商品一覧*/
+#Cars img{
+  width:150px;
+	height:100px;
+}
+
+.gallery_box{
+	padding-left: 50px;
+  } 
+  
+.gallery_box figure:first-child{	
+  							
+	margin-left: 40px;					
+  }	
+
+  #Cars h1{
+	margin-top: 0px;
+  }
+
+/*アクセス*/
+#accesstable {
+    border-collapse: collapse;
+    margin: 0 auto;
+    padding: 0;
+	width: auto;
+    vertical-align: middle;
+    display: table-cell;
+    table-layout: fixed;
+  }
+  
+  #accesstable tr {
+    background-color: #e6e9f5;
+    padding: .35em;
+    border-bottom: 2px solid #fff;
+  }
+  #accesstable th,
+  #accesstable td {
+    padding: 1em 10px 1em 1em;
+    border-right: 2px solid #fff;
+  }
+  #accesstable th {
+    font-size: .85em;
+    background:#0404B4;
+    color: #fff;
+  }
+
+  .txt{
+     text-align: left;
+     font-size: .85em;
+  }
+  .non{
+    background:#fff
+  }
