@@ -26,7 +26,7 @@
 	padding-bottom:0px;
 	padding-top:150px;
 	margin-top: 0px;
-	margin-bottom: 1200px;
+	margin-bottom: 2500px;
   }
 
   #Access{
@@ -40,15 +40,22 @@
     padding: 0;
   }
 
-  /*ヘッダー*/
+/*ヘッダー*/
   .navbar-nav li {
-	margin-bottom: 10px;
-	display: table-cell;
-    width: 200px;
+    font-size: 10px;
+	  margin-bottom: 10px;
+    display: table-cell;
+    padding:1px 1px 1px 1px;
+    width: 100px;
     height: 50px;
     vertical-align: middle;
+    width: 100px;
+    text-align: center;
+    background-color:#3C14D0;
+    float: left;
+    line-height: 50px;
+    margin-right: 5px;
   }
-
 
 /*タイトル*/
 #graphic ul img{
@@ -107,13 +114,20 @@
   #Cars h1{
 	margin-top: 0px;
   }
+  .car{
+    width: 180px;
+  }
+
+  .sp_br{
+    display:block;
+  }  
 
 /*アクセス*/
 #accesstable {
     border-collapse: collapse;
     margin: 0 auto;
     padding: 0;
-	width: auto;
+	  width: auto;
     vertical-align: middle;
     display: table-cell;
     table-layout: fixed;

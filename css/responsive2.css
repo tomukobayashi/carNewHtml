@@ -26,7 +26,7 @@
 	padding-bottom:0px;
 	padding-top:100px;
 	margin-top: 0px;
-  margin-bottom: 500px;
+  margin-bottom:1500px;
   padding-left: 10px;
   }
 
@@ -41,7 +41,7 @@
     padding: 0;
   }
 
-  /*ヘッダー*/
+/*ヘッダー*/
   .navbar-nav li {
 	margin-bottom: 10px;
 	display: table-cell;
@@ -111,4 +111,11 @@
 	margin-left: 10px;
 } 
 
+.car{
+  width: 180px;
+}
+
+.sp_br{
+  display:block;
+}  
 /*アクセス*/

@@ -68,7 +68,7 @@ h1 {
   }
 
   #Cars{
-    padding-bottom: 1000px;
+    padding-bottom: 1200px;
   }
 
   #Access{
@@ -120,6 +120,7 @@ h1 {
   }
   #mainNav ul{
     list-style: none;
+    padding-bottom:10px;
   }
 
   .navbar-nav li {
@@ -140,7 +141,11 @@ h1 {
 
   .navbar-brand{
     color:blue;
-    text-decoration: none;
+  }
+
+  #mainNav .collapse{
+    padding-bottom: 10px;
+
   }
 
 /*タイトル部分*/
@@ -284,8 +289,25 @@ h1 {
 }
 .gallery_box figure:first-child{								
   margin-left: 0px;					
-}								
+}
 
+.car{
+  padding-top: 15px;
+  font-size: 15px;
+  width: 300px;
+}
+.car th{
+  background-color: #0404B4;
+  color:#fff;
+  padding:5px 5px 5px 5px;
+}
+.car tr{
+  background-color: #fff;
+  text-align: center;
+}
+.sp_br{
+  display: none;
+}
 
 /*アクセス*/
 #accesstable {
