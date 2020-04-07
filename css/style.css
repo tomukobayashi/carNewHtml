@@ -341,3 +341,34 @@ h1 {
   .non{
     background:#fff
   }
+
+  /*ページTOPへ戻る*/
+  #page_top{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: -100px;
+    bottom: 0;
+    background: #FF6666;
+    opacity: 0.6;
+    border-radius: 50%;
+    z-index: 1000;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+  }
+
+  #page_top a::before{
+    font-weight: 900;
+    content: '▲';
+    font-size: 50px;
+    color: #fff;
+    position: absolute;
+    width: 50px;
+    height: 60px;
+    top: -5px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+  }
