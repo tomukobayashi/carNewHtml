@@ -64,15 +64,18 @@ h1 {
   }
 
   #IntroShop{
-    padding-bottom: 300px
+    padding-bottom: 300px;
+    padding-top: 30px;
   }
 
   #Cars{
     padding-bottom: 1200px;
+    padding-top: 30px;
   }
 
   #Access{
     padding-bottom: 300px;
+    padding-top: 30px;
   }
 
   /*ヘッダー部分*/
