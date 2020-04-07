@@ -122,4 +122,8 @@
 .sp_br{
   display:block;
 }  
+
 /*アクセス*/
+#accesstable .sp_br{
+  display:none;
+}  

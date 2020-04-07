@@ -131,6 +131,7 @@
     vertical-align: middle;
     display: table-cell;
     table-layout: fixed;
+    padding-left: 10px;
   }
   
   #accesstable tr {
