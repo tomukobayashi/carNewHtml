@@ -102,12 +102,12 @@
 	height:100px;
 }
 
+
 .gallery_box{
 	padding-left: 50px;
   } 
   
-.gallery_box figure:first-child{	
-  							
+.gallery_box figure:first-child{					
 	margin-left: 40px;					
   }	
 
@@ -115,7 +115,7 @@
 	margin-top: 0px;
   }
   .car{
-    width: 180px;
+    width: 170px;
   }
 
   .sp_br{

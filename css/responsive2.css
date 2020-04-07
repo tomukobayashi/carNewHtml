@@ -102,6 +102,10 @@
 
 
 /*商品一覧*/
+.gallery_box{
+  padding-left: 50px;
+} 
+
 #Cars img{
   width:150px;
 	height:100px;
@@ -112,7 +116,7 @@
 } 
 
 .car{
-  width: 180px;
+  width: 170px;
 }
 
 .sp_br{
