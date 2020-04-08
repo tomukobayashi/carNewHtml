@@ -64,17 +64,17 @@ h1 {
   }
 
   #IntroShop{
-    padding-bottom: 300px;
-    padding-top: 30px;
+    padding-bottom: 110px;
+    padding-top: 20px;
   }
 
   #Cars{
-    padding-bottom: 1200px;
+    padding-bottom: 1050px;
     padding-top: 30px;
   }
 
   #Access{
-    padding-bottom: 300px;
+    padding-bottom: 200px;
     padding-top: 30px;
   }
 
@@ -230,7 +230,6 @@ h1 {
     padding: 10px;
     padding-right: 15px;
 }
-
 
 /*商品一覧*/
 #Cars .gallery_box{
