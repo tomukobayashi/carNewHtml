@@ -12,8 +12,9 @@ $(function() {
 	  slideshowSpeed:3000,
 	  maxWidth:"90%",
 	  maxHeight:"90%",
-	  innerWidth: 600,// 高さ初期設定
-	  innerHeight: 400,// 高さ初期設定
+	//   innerWidth: 600,// 高さ初期設定
+	//   innerHeight: 400,// 高さ初期設定
+	  opacity: 0.7,
 	  fixed:true,
 	});
 	$(".galleryB").colorbox({
@@ -22,8 +23,6 @@ $(function() {
 		slideshowSpeed:3000,
 		maxWidth:"90%",
 		maxHeight:"90%",
-		innerWidth: 600,// 高さ初期設定
-		innerHeight: 400,// 高さ初期設定
 		opacity: 0.7,
 		fixed:true,
 	  });
@@ -33,8 +32,6 @@ $(function() {
 		slideshowSpeed:3000,
 		maxWidth:"90%",
 		maxHeight:"90%",
-		innerWidth: 600,// 高さ初期設定
-		innerHeight: 400,// 高さ初期設定
 		opacity: 0.7,
 		fixed:true,
 	  });
@@ -44,8 +41,6 @@ $(function() {
 		slideshowSpeed:3000,
 		maxWidth:"90%",
 		maxHeight:"90%",
-		innerWidth: 600,// 高さ初期設定
-		innerHeight: 400,// 高さ初期設定
 		opacity: 0.7,
 		fixed:true,
 	  });
@@ -55,8 +50,6 @@ $(function() {
 		slideshowSpeed:3000,
 		maxWidth:"90%",
 		maxHeight:"90%",
-		innerWidth: 600,// 高さ初期設定
-		innerHeight: 400,// 高さ初期設定
 		opacity: 0.7,
 		fixed:true,
 	  });
@@ -66,8 +59,6 @@ $(function() {
 		slideshowSpeed:3000,
 		maxWidth:"90%",
 		maxHeight:"90%",
-		innerWidth: 600,// 高さ初期設定
-		innerHeight: 400,// 高さ初期設定
 		opacity: 0.7,
 		fixed:true,
 	  });
@@ -77,8 +68,6 @@ $(function() {
 		slideshowSpeed:3000,
 		maxWidth:"90%",
 		maxHeight:"90%",
-		innerWidth: 600,// 高さ初期設定
-		innerHeight: 400,// 高さ初期設定
 		opacity: 0.7,
 		fixed:true,
 	  });
@@ -88,8 +77,6 @@ $(function() {
 		slideshowSpeed:3000,
 		maxWidth:"90%",
 		maxHeight:"90%",
-		innerWidth: 600,// 高さ初期設定
-		innerHeight: 400,// 高さ初期設定
 		opacity: 0.7,
 		fixed:true,
 	  });
@@ -99,8 +86,6 @@ $(function() {
 		slideshowSpeed:3000,
 		maxWidth:"90%",
 		maxHeight:"90%",
-		innerWidth: 600,// 高さ初期設定
-		innerHeight: 400,// 高さ初期設定
 		opacity: 0.7,
 		fixed:true,
 	  }); 
