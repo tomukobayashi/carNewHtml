@@ -49,7 +49,6 @@
     width: 100px;
     height: 50px;
     vertical-align: middle;
-    width: 100px;
     text-align: center;
     background-color:#3C14D0;
     float: left;
@@ -59,10 +58,11 @@
 
 /*タイトル*/
 #graphic ul img{
-	width: 350px;
+	width: 100%;
 	height:300px;
 	z-index: 1;
-	padding:0 0 0 0;
+  padding:0 0 0 0;
+  margin:0 0 0 0;
   }
 #graphic ul li .now{
     width:100%;
@@ -71,24 +71,22 @@
 #shopName::before {
 	font-size: 25px;
 	margin-bottom:20.5em;
-	position: absolute;
+  position: absolute;
+  /* padding: 0 20px; */
+  margin-left:auto;
+  margin-right:auto;
   }
 
 #graphic li{
 	padding:0 0 0 0;
 }
 
-#graphic, .graphic{
+#graphic,.graphic{
     width: 100%;
     height: 150px;
     position: relative;
 }
-
-#shopName::before {
-	padding: 0 20px;
-  }
   
-
 /*販売店紹介*/
 #IntroShop img{
   width:100%;
