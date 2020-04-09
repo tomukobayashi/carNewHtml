@@ -42,15 +42,27 @@
   }
 
 /*ヘッダー*/
+#mainNav .navbar-brand {
+  padding-left: 39px;
+}
   .navbar-nav li {
 	margin-bottom: 10px;
 	display: table-cell;
     width: 200px;
     height: 50px;
     vertical-align: middle;
+    margin-right: 5px;
   }
 
+  #mainNav .container {
+    width:100%;
+    display: grid;
+  } 
 
+  #mainNav ul{
+    list-style: none;
+    padding-left:105px;
+  }
 /*タイトル*/
 #graphic ul img{
 	width: 100%;

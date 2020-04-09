@@ -42,29 +42,20 @@
 
 /*ヘッダー*/
 #mainNav .navbar-brand {
-    padding-left: 40px;
+  padding-left: 39px;
 }
 #mainNav .container {
-   /* ④ */
-    display: grid;
+  width:100%;
+  display: grid;
 } 
-
-.navbar-nav ul{
-  margin-right:5px;
-
-}
 
 #mainNav ul{
   list-style: none;
-  padding-right:10px;
-}
-.navbar-brand{
-    padding-left: 40px;
-    padding-right: 0px;
+  padding-left:30px;
 }
 
   .navbar-nav li {
-    font-size: 20px;
+    font-size: 17px;
 	  margin-bottom: 10px;
     display: table-cell;
     padding:1px 1px 1px 1px;
@@ -75,7 +66,6 @@
     background-color:#3C14D0;
     float: left;
     line-height: 50px;
-    margin-right: 5px;
   }
 
   .navbar-brand {
