@@ -78,9 +78,13 @@
     position: relative;
 }
 
-#shopName::before {
-	padding: 0 20px;
-  }
+#graphic::after {
+    font-size: 50px;
+    top: 450;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
   
 
 /*販売店紹介*/

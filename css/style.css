@@ -192,7 +192,7 @@ h1 {
     position: absolute;
   }
 
-  #shopName::before {
+  #graphic::after {
     padding: 0 20px;
     content: 'オートパレス具志川本店';
     z-index: 100;
@@ -201,8 +201,8 @@ h1 {
     height: max-content;
     position: absolute;
     z-index: 3;
-    top: 0px;
-    left: 0;
+    top: 450;
+    left: 150;
     bottom: 0;
     right: 0;
     margin: auto;
