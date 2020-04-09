@@ -94,18 +94,17 @@ h1 {
     font-size: 25px;
     width:100%;
   }
-  
+   
   #mainNav .container {
     max-width: 1140px;
-    display: -ms-flexbox;
-    display: flex;
+    display: -ms-flexbox; 
+    display: flex; 
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     -ms-flex-align: center;
     align-items: center;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    width: 100%;
     margin-right: auto;
     margin-left: auto;
   }
@@ -120,7 +119,7 @@ h1 {
     font-size: 27px;
     line-height: inherit;
     white-space: nowrap;
-  }
+  } 
   #mainNav ul{
     list-style: none;
     padding-bottom:10px;
@@ -134,7 +133,7 @@ h1 {
     height: 50px;
     line-height: 50px;
     margin-right: 2px;
-  }
+  } 
 
   .navbar-nav li a {
     text-decoration: none;
@@ -149,7 +148,7 @@ h1 {
   #mainNav .collapse{
     padding-bottom: 10px;
 
-  }
+  } 
 
 /*タイトル部分*/
   #graphic,.graphic{

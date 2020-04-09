@@ -41,8 +41,30 @@
   }
 
 /*ヘッダー*/
+#mainNav .navbar-brand {
+    padding-left: 40px;
+}
+#mainNav .container {
+   /* ④ */
+    display: grid;
+} 
+
+.navbar-nav ul{
+  margin-right:5px;
+
+}
+
+#mainNav ul{
+  list-style: none;
+  padding-right:10px;
+}
+.navbar-brand{
+    padding-left: 40px;
+    padding-right: 0px;
+}
+
   .navbar-nav li {
-    font-size: 10px;
+    font-size: 20px;
 	  margin-bottom: 10px;
     display: table-cell;
     padding:1px 1px 1px 1px;
@@ -54,6 +76,10 @@
     float: left;
     line-height: 50px;
     margin-right: 5px;
+  }
+
+  .navbar-brand {
+    padding-right:100px;
   }
 
 /*タイトル*/
