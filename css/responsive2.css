@@ -61,7 +61,7 @@
 
   #mainNav ul{
     list-style: none;
-    padding-left:105px;
+    padding-left:95px;
   }
 /*タイトル*/
 #graphic ul img{
@@ -95,7 +95,7 @@
     top: 450;
     left: 0;
     bottom: 0;
-    right: 0;
+    right: 10;
 }
   
 
